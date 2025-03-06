@@ -9,6 +9,7 @@ int function(int x){
 	x=function(x);
 	return x;
 }
+//laborator2
 
 int main(){
 	int a=30, i=0;
