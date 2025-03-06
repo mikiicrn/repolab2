@@ -2,6 +2,9 @@
 #include <stdio.h>
 
 int function(int x){
+	if (x <= 0) {
+        return x;  // Conditie de oprire
+    }
 	x=x-2;
 	x=function(x);
 	return x;
