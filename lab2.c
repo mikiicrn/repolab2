@@ -3,7 +3,7 @@
 
 int function(int x){
 	if (x <= 0) {
-        return x;  // Conditie de oprire
+        return x; 
     }
 	x=x-2;
 	x=function(x);
